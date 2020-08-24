@@ -1,8 +1,8 @@
 {
-  "name": "electron-api-demos",
-  "productName": "Electron API Demos",
+  "name": "runbook",
+  "productName": "Runbook",
   "version": "2.0.2",
-  "description": "Electron interactive API demos",
+  "description": "Runbook",
   "main": "main.js",
   "bin": "cli.js",
   "scripts": {

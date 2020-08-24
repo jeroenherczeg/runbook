@@ -78,13 +78,12 @@ svg {
 
 /* Code */
 
-code, kbd {
+code, kbd, div.output {
   font-family: 'Source Code Pro', monospace;
   border-radius: 4px;
   padding: 1px 4px;
   white-space: nowrap;
   color: hsl(0,0%,36%);
-  background-color: hsla(0,0%,60%,.15);
 }
 
 pre, kbd {

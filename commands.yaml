@@ -1,0 +1,23 @@
+MongoDB
+  sudo -u mongodb -s cd /mnt/loki/persistence/mongodb
+
+  sudo systemctl status mongod
+
+  sudo nano /etc/mongod.conf
+
+
+Git
+
+  https://www.atlassian.com/git/tutorials/export-git-archive
+
+Loki
+  Number of php files
+  Number of repositories - find /mnt/loki/repositories -mindepth 3 -maxdepth 3 -type d | wc -l
+  List all repositories - find /mnt/loki/repositories -mindepth 3 -maxdepth 3 -type d
+  Useless Return
+  Packagist
+    Ingest
+    Clone
+  docker run --gpus all -it -v /mnt/loki/datasets/java/preprocessed/java-small:/data code2seq:0.0.9
+Ubuntu
+  service --status-all

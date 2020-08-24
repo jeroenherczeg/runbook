@@ -1,0 +1,62 @@
+<template class="task-template">
+    <section id="loki-section" class="section js-section u-category-windows">
+        <header class="section-header">
+            <div class="section-wrapper">
+                <h1>Loki</h1>
+                <h3>This reliable dog will stay with you until the end.</h3>
+            </div>
+        </header>
+
+        <div class="demo">
+            <div class="demo-wrapper">
+                <button class="js-container-target demo-toggle-button">
+                    Disk usage
+                </button>
+                <div class="demo-box">
+                    <pre><code>df -h | grep /dev/sda</code></pre>
+                    <br>
+                    <div class="output"></div>
+                    <br>
+                    <div class="demo-controls">
+                        <button class="demo-button run-button">Run</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="demo">
+            <div class="demo-wrapper">
+                <button class="js-container-target demo-toggle-button">
+                    Count PHP files
+                </button>
+                <div class="demo-box">
+                    <pre><code>find /mnt/loki/repositories -type f -name "*.php"| wc -l</code></pre>
+                    <br>
+                    <div class="output"></div>
+                    <br>
+                    <div class="demo-controls">
+                        <button class="demo-button run-button">Run</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="demo">
+            <div class="demo-wrapper">
+                <button class="js-container-target demo-toggle-button">
+                    Number of repositories
+                </button>
+                <div class="demo-box">
+                    <pre><code>find /mnt/loki/repositories -mindepth 3 -maxdepth 3 -type d | wc -l</code></pre>
+                    <br>
+                    <div class="output"></div>
+                    <br>
+                    <div class="demo-controls">
+                        <button class="demo-button run-button">Run</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</template>

@@ -76,6 +76,7 @@ describe('demo app', function () {
     return app.client.dismissAboutPage()
       .auditSectionAccessibility('windows')
       .auditSectionAccessibility('crash-hang')
+      .auditSectionAccessibility('minikube')
       .auditSectionAccessibility('menus')
       .auditSectionAccessibility('shortcuts')
       .auditSectionAccessibility('ex-links-file-manager')

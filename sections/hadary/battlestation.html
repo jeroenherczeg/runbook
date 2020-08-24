@@ -1,0 +1,62 @@
+<template class="task-template">
+    <section id="battlestation-section" class="section js-section u-category-windows">
+        <header class="section-header">
+            <div class="section-wrapper">
+                <h1>Battlestation</h1>
+                <h3>We have the technology.</h3>
+            </div>
+        </header>
+
+        <div class="demo">
+            <div class="demo-wrapper">
+                <button class="js-container-target demo-toggle-button">
+                    Ubuntu services
+                </button>
+                <div class="demo-box">
+                    <pre><code>service --status-all</code></pre>
+                    <br>
+                    <div class="output"></div>
+                    <br>
+                    <div class="demo-controls">
+                        <button class="demo-button run-button">Run</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="demo">
+            <div class="demo-wrapper">
+                <button class="js-container-target demo-toggle-button">
+                    Mongod status
+                </button>
+                <div class="demo-box">
+                    <pre><code>systemctl status mongod</code></pre>
+                    <br>
+                    <div class="output"></div>
+                    <br>
+                    <div class="demo-controls">
+                        <button class="demo-button run-button">Run</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="demo">
+            <div class="demo-wrapper">
+                <button class="js-container-target demo-toggle-button">
+                    Mongod log
+                </button>
+                <div class="demo-box">
+                    <pre><code>cat /var/log/mongodb/mongod.log</code></pre>
+                    <br>
+                    <div class="output"></div>
+                    <br>
+                    <div class="demo-controls">
+                        <button class="demo-button run-button">Run</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</template>
